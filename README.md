@@ -10,6 +10,7 @@ Prima di eseguire una nuova azione si blocca a causa del Thread.Sleep.
 Uno Lavora su lblCounter1 e l’altro lavora su lblCounter2.
 
 Il lock garantisce l’atomicità delle cose.
+
 <img src="images/immagine4.PNG" width=100>
 
 Una volta fermato nessuno aggiorna più la prima label.
