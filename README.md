@@ -2,7 +2,7 @@
 4i, ITTS O.Belluzzi L.da Vinci, 2022/2023
 
 <img src="images/immagine1.PNG" width=500>
-<img src="images/immagine2.PNG" width=500> <img src="images/immagine3.PNG" width=500>
+<img src="images/immagine2.PNG" width=300> <img src="images/immagine3.PNG" width=300>
 
 I thread non possono usare uno le risorse dell’altro.
 
