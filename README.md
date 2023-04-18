@@ -28,7 +28,7 @@ Il semaforo è un intero che non può essere negativo e ha due comandi:
 
 -wait, è una procedura bloccante 
 
-Il semaforo non può essere utilizzato all’interno di un event handler per questo dobbiamo crearli un altro thread che incrementerà il terzo contatore.
+Il semaforo non può essere utilizzato all’interno di un event handler per questo dobbiamo crearli un altro thread che eseguira la funzione di wait indipendentemente e incrementerà il terzo contatore.
 
 <img src="images/immagine7.PNG" width=300>
 <img src="images/immagine8.PNG" width=300>
