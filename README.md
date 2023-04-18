@@ -5,17 +5,19 @@
 <img src="images/immagine2.PNG" width=300> 
 <img src="images/immagine3.PNG" width=300>
 
+Un thread incrementa il primo contatore mentre l'altro incrementa il secondo contatore.
+
 I thread non possono usare uno le risorse dell’altro.
 
 Prima di eseguire una nuova azione si blocca a causa del Thread.Sleep.
 
-Uno Lavora su lblCounter1 e l’altro lavora su lblCounter2.
+Un thread lavora su lblCounter1 e l’altro lavora su lblCounter2.
 
 Il lock garantisce l’atomicità delle cose.
 
 <img src="images/immagine4.PNG" width=100>
 
-Una volta fermato nessuno aggiorna più la prima label.
+Una volta fermato il contatore nessuno aggiorna più la prima label.
 
 <img src="images/immagine5.PNG" width=300>
 <img src="images/immagine6.PNG" width=300>
@@ -26,7 +28,7 @@ Il semaforo è un intero che non può essere negativo e ha due comandi:
 
 -wait, è una procedura bloccante 
 
-Il semaforo non può essere utilizzato all’interno di un event handler per questo dobbiamo crearli un altro thread.
+Il semaforo non può essere utilizzato all’interno di un event handler per questo dobbiamo crearli un altro thread che incrementerà il terzo contatore.
 
 <img src="images/immagine7.PNG" width=300>
 <img src="images/immagine8.PNG" width=300>
@@ -45,4 +47,4 @@ Per fare in modo che nessuno clicchi il pulsante durante l'esecuzione utilizziam
 
 che blocca momentaneamente il pulsante. 
 
-E per farlo ripartire lo settiamo a true
+E per farlo ripartire lo settiamo a true.
